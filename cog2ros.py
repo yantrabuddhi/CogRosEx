@@ -10,4 +10,3 @@ def send_msg(valstr):
 	s = valstr.name
 	pub.publish(s)
 	return TruthValue(1, 1)
-#if __name__ == '__main__':

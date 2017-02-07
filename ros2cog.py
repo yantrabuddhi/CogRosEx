@@ -7,7 +7,7 @@ rate = rospy.Rate(1) # 1hz
 i=0
 while not rospy.is_shutdown():
 	i=i+1
-	if i>10:
+	if i>5:
 		i=1
 	#create atoms
 	ato = '(StateLink (ConceptNode "ticker") (NumberNode '+str(i)+'))\n'
